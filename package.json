@@ -1,0 +1,25 @@
+{
+  "name": "yesornotextinmanystatictranslatedlanguages",
+  "version": "1.0.0",
+  "description": "\"yes\" or \"no\" text in many static translated languages",
+  "keywords": [
+    "yesOrNo",
+    "yesOrNoText",
+    "yesOrNoTranslatedText"
+  ],
+  "homepage": "https://github.com/Jasurbek2208/YesOrNoTextInManyStaticTranslatedLanguages#readme",
+  "bugs": {
+    "url": "https://github.com/Jasurbek2208/YesOrNoTextInManyStaticTranslatedLanguages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasurbek2208/YesOrNoTextInManyStaticTranslatedLanguages.git"
+  },
+  "license": "MIT",
+  "author": "Jasurbek Shomaqsudov",
+  "type": "commonjs",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
