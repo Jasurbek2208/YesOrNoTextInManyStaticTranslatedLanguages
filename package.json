@@ -1,5 +1,5 @@
 {
-  "name": "yesornotextinmanystatictranslatedlanguages",
+  "name": "yes-or-no-text",
   "version": "1.0.0",
   "description": "\"yes\" or \"no\" text in many static translated languages",
   "keywords": [
@@ -16,7 +16,11 @@
     "url": "git+https://github.com/Jasurbek2208/YesOrNoTextInManyStaticTranslatedLanguages.git"
   },
   "license": "MIT",
-  "author": "Jasurbek Shomaqsudov",
+  "author": {
+    "name": "Jasurbek Shomaqsudov",
+    "url": "https://github.com/Jasurbek2208",
+    "email": "jasurbekshomaqsudov2004@gmail.com"
+  },
   "type": "commonjs",
   "main": "main.ts",
   "scripts": {
