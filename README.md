@@ -63,11 +63,11 @@ A localized string for "Yes" or "No" in the specified language.
 | Code | Language   | Yes    | No     |
 | ---- | ---------- | ------ | ------ |
 | en   | English    | Yes    | No     |
+| ru   | Russian    | Да     | Нет    |
+| uz   | Uzbek      | Ha     | Yo‘q   |
 | es   | Spanish    | Sí     | No     |
 | fr   | French     | Oui    | Non    |
 | de   | German     | Ja     | Nein   |
-| ru   | Russian    | Да     | Нет    |
-| uz   | Uzbek      | Ha     | Yo‘q   |
 | it   | Italian    | Sì     | No     |
 | pt   | Portuguese | Sim    | Não    |
 | zh   | Chinese    | 是     | 否     |
