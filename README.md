@@ -1,65 +1,47 @@
-Here’s a sample `README.md` file for your package:
-
-````markdown
 # yes-or-no-text
-
 A lightweight utility function to return localized "Yes" or "No" text based on a boolean or string input. Supports translations in over 50 languages with an optional language parameter.
 
 ## Installation
-
 Install the package using npm or yarn:
 
 ```bash
 npm install yes-or-no-text
 ```
-````
 
-or
-
-```bash
-yarn add yes-or-no-text
-```
 
 ## Usage
-
 ### Import the Function
-
 ```typescript
-import yesOrNoText from "yes-or-no-text";
+import yesOrNoText from 'yes-or-no-text'
 ```
 
 ### Example Usage
-
 ```typescript
-// Default to English
-console.log(yesOrNoText(true)); // Output: "Yes"
-console.log(yesOrNoText(false)); // Output: "No"
+//Default to English
+console.log(yesOrNoText(true))//Yes
+console.log(yesOrNoText(false))//No
 
-// Specify a language
-console.log(yesOrNoText(true, "fr")); // Output: "Oui"
-console.log(yesOrNoText(false, "es")); // Output: "No"
-console.log(yesOrNoText('true', "uz")); // Output: "Ha"
+//Specify a language
+console.log(yesOrNoText(true, "fr"))//Oui
+console.log(yesOrNoText(false, "es"))//No
+console.log(yesOrNoText('true', "uz"))//Ha
 
-// Unsupported languages or empty param defaults to English
-console.log(yesOrNoText(true, "xyz")); // Output: "Yes"
-console.log(yesOrNoText(true)); // Output: "Yes"
+//Unsupported languages or empty param defaults to English
+console.log(yesOrNoText(true, "xyz"))//Yes
+console.log(yesOrNoText(true))//Yes
 ```
 
 ## API
-
-### `yesOrNoText(text: boolean | string, lang?: string): string`
+### `yesOrNoText(t: boolean | string, l?: string): string`
 
 #### Parameters:
-
-- **`text`**: A boolean or string that determines the output. If truthy, returns the localized "Yes." If falsy, returns the localized "No."
-- **`lang`** _(optional)_: A string representing the desired language code. Defaults to `'en'` (English).
+- **`t`**: A boolean or string that determines the output. If truthy, returns the localized "Yes." If falsy, returns the localized "No."
+- **`l`** _(optional)_: A string representing the desired language code. Defaults to `'en'` (English).
 
 #### Returns:
-
 A localized string for "Yes" or "No" in the specified language.
 
 ## Supported Languages
-
 | Code | Language   | Yes    | No     |
 | ---- | ---------- | ------ | ------ |
 | en   | English    | Yes    | No     |
@@ -117,13 +99,7 @@ A localized string for "Yes" or "No" in the specified language.
 | gl   | Galician   | Si     | Non    |
 
 ## License
-
 This project is licensed under the MIT License.
 
 ## Contributions
-
 Feel free to submit issues or pull requests for additional features or translations.
-
-## Author
-
-Developed by Jasurbek Shomaqsudov
